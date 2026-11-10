@@ -11,4 +11,8 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<Persona> Personas { get; set; } = null!;
+
+    public DbSet<Ciudad> Ciudades { get; set; } = null!;
+
+    public DbSet<Pais> Paises { get; set; } = null!;
 }
